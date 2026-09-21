@@ -11,5 +11,6 @@ sources: []
 
 # meetings/
 
-One file per meeting, `YYYY-MM-DD-topic.md`, with the standard header. Sections: present,
+One file per meeting, `YYYY-MM-DD-topic.md`, with the standard header. An agenda for a meeting
+not yet scheduled is `agenda-<topic>.md`; rename it with the date once held and add the notes. Sections: present,
 decisions (copy each to `decisions/decision-log.md`), actions (copy to `STATUS.md`), notes.

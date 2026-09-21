@@ -49,6 +49,10 @@ Rules:
 
 ## 3. Sources: how external content enters the repo
 
+- Anything new from the team or the outside world (a pasted chat, an email, a transcript, a
+  link, a document someone wrote, a file) is ingested with
+  [workflows/ingest-source.md](workflows/ingest-source.md). Under Claude Code, `/ingest-source`.
+  Humans can also drop material in `inbox/` and ask for the inbox to be processed.
 - New external content goes in `sources/<area>/` as its own note with fetch metadata
   (URL, fetched date, who fetched it, method, fidelity). Register it in `sources/INDEX.md`
   with the next free ID.
@@ -86,6 +90,7 @@ lines. One line per action: `<UTC time> | <session or actor> | <event> | <detail
 | Who is doing what, availability, meeting notes (`team/meetings/YYYY-MM-DD-topic.md`) | `team/` |
 | A decision (with reasoning) or a new open question | `decisions/` |
 | An external page or document you read | `sources/` + `sources/INDEX.md` |
+| A message, email, transcript, file or document from the team | `sources/team/` via `workflows/ingest-source.md`, then routed onward |
 | A change to what is true right now | `STATUS.md` (edit in place, keep it short) |
 | A new or changed date | `TIMELINE.md` |
 

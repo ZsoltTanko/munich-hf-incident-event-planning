@@ -29,6 +29,8 @@ sources: [S01, S02, S06, S07]
 
 ## Next actions (suggested owner in brackets)
 
+0. **Hold the alignment meeting** (Dave convenes, this week) using
+   `team/meetings/agenda-alignment-meeting.md`. Items 1–7 below are its agenda.
 1. **Decide the event date window** (whole team, this week). Either target 2026-10-15..18 and
    accept a tight two-week runway, or pick late Oct / early Nov and justify it in the
    application, which the RFE explicitly allows. See `decisions/open-questions.md` Q1.
@@ -55,3 +57,5 @@ sources: [S01, S02, S06, S07]
 
 - 2026-09-21: repo created; all links in the seed and RFE read and filed under `sources/`;
   drafts written for every area.
+- 2026-09-21: ingest workflow (`workflows/ingest-source.md`), `inbox/`, `sources/team/` and the
+  alignment-meeting agenda added.

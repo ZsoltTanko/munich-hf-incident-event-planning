@@ -11,7 +11,9 @@ sources: []
 
 # Source index
 
-Next free ID: **S15**. Add new sources at the bottom; never renumber.
+Next free ID: **S15**. Add new sources at the bottom; never renumber. Team-originated material
+(chats, emails, transcripts, team documents) is registered here too, filed under `team/`;
+see `workflows/ingest-source.md`.
 
 | ID | What | Local file | Origin | Fidelity |
 |---|---|---|---|---|

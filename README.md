@@ -45,6 +45,8 @@ It is a documents repo, not a code repo.
 | `team/` | Organisers, roles, availability, meeting notes | ...find out who does what |
 | `decisions/` | Open questions and the decision log | ...record or look up a decision |
 | `log/` | The provenance log | ...see who did what, when |
+| `inbox/` | Drop zone for new material from the team (pastes, emails, transcripts, files) | ...hand something to an agent to file and integrate |
+| `workflows/` | Step-by-step procedures for recurring agent jobs; start with `ingest-source.md` | ...ingest a new source the standard way |
 | `scripts/` | Logging helpers used by the hook and by humans | ...log an action manually |
 
 Every directory has its own `README.md` saying what belongs there.

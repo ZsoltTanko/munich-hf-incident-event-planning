@@ -17,6 +17,8 @@ ID (S01, S02, ...). Cite the ID in any file that relies on the source.
 - `originals/` — the two input documents exactly as received. Read-only.
 - `funder/` — BlueDot's Rapid Grants terms and the application form fields.
 - `incident/` — primary accounts of the Hugging Face incident and Stan's paper.
+- `team/` — verbatim material from the organising team (chats, emails, transcripts, documents,
+  files), filed by `workflows/ingest-source.md`.
 - `context/` — the wider summer-2026 moment: resignations, the pacing debate, agi.wtf, and a
   derived consolidated timeline.
 
