@@ -1,0 +1,36 @@
+2026-09-21T18:40:00Z | 4f946fee | note | claude-fable-5-1 via Claude Code. Task from Zsolt: read seed.md and the BlueDot RFE, follow every link, design and build a structured documents repo for organising the event, with agent instructions and an automatic provenance log.
+2026-09-21T18:41:00Z | 4f946fee | read | seed.md (now sources/originals/seed.md)
+2026-09-21T18:41:00Z | 4f946fee | read | Request for Events_ Helping people respond to the current AI safety moment.md (now sources/originals/bluedot-request-for-events-2026-09-17.md)
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/ -> S03 (extracted)
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://apartresearch.com/project/noticing-the-escapes-who-spots-a-runaway-agent-and-how-long-does-it-take-pne8 -> header only, JS-rendered; retried in browser
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://www.agi.wtf/ -> S05 (extracted, two passes)
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://bluedot.org/grants/rapid -> S06 (extracted, two passes)
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://airtable.com/appMVNtdBtvtJvu5E/pag9G3oF4DYAyassX/form -> no form in static HTML; retried in browser
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://x.com/hilbertspaess/status/2097476196791709843 -> HTTP 402; retried in browser
+2026-09-21T18:43:00Z | 4f946fee | WebFetch | https://x.com/sama/status/2098811563415150910 -> HTTP 402; retried in browser
+2026-09-21T18:46:00Z | 4f946fee | browser | apartresearch.com project page -> S04 (verbatim abstract; PDF viewer did not open)
+2026-09-21T18:46:00Z | 4f946fee | browser | airtable.com Rapid Grant Application form -> S07 (verbatim field list; dropdown options not expanded)
+2026-09-21T18:46:00Z | 4f946fee | browser | x.com Jacob Coxon thread -> S08 (verbatim; four replies truncated by "Show more")
+2026-09-21T18:46:00Z | 4f946fee | browser | x.com Sam Altman post -> S09 (verbatim, includes quoted Amodei post)
+2026-09-21T18:48:00Z | 4f946fee | WebFetch | https://github.com/stlukyanenko/noticing-the-escapes -> S04 (README extracted)
+2026-09-21T18:48:00Z | 4f946fee | WebFetch | https://apartresearch.com/sprints/ai-incident-response-sprint-2026-09-11-to-2026-09-13 -> S13 (extracted)
+2026-09-21T18:50:00Z | 4f946fee | WebFetch | https://huggingface.co/blog/agent-intrusion-technical-timeline -> S10 (extracted)
+2026-09-21T18:50:00Z | 4f946fee | WebFetch | https://openai.com/index/hugging-face-model-evaluation-security-incident/ -> HTTP 403; retried in browser
+2026-09-21T18:52:00Z | 4f946fee | WebFetch | https://raw.githubusercontent.com/stlukyanenko/noticing-the-escapes/main/artifact/detections.csv -> S04 (verbatim CSV)
+2026-09-21T18:52:00Z | 4f946fee | WebSearch | Dario Amodei "We Must Pace the Frontier" -> S14 (result list); essay URL found
+2026-09-21T18:53:00Z | 4f946fee | browser | openai.com incident post -> S11 (verbatim)
+2026-09-21T18:53:00Z | 4f946fee | WebFetch | https://darioamodei.com/post/we-must-pace-the-frontier -> S12 (extracted)
+2026-09-21T18:56:00Z | 4f946fee | Bash | mkdir repo skeleton; git init -b main; moved the two input files into sources/originals/ (renamed RFE file, content unchanged); wrote scripts/log_action.py, scripts/log.sh, .claude/settings.json (hooks), .gitignore; smoke-tested the hook script
+2026-09-21T18:58:00Z | 4f946fee | Write | README.md, AGENTS.md, CLAUDE.md, STATUS.md, TIMELINE.md, log/README.md, log/actions.log (this seed block)
+2026-09-21T19:02:07Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > sources/README.md <<'MD' --- title: sources/ — inputs and everything we read status: active owner: Zsolt created: 2026-09-21 created_by: claude-fable-5-1 (Claude Code sess
+2026-09-21T19:02:36Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > sources/funder/bluedot-rapid-grants.md <<'MD' --- title: BlueDot Rapid Grants — eligibility, restrictions, terms source_id: S06 url: https://bluedot.org/grants/rapid autho
+2026-09-21T19:04:18Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > grant/README.md <<'MD' --- title: grant/ — the BlueDot application and the money status: active owner: Dave created: 2026-09-21 created_by: claude-fable-5-1 (Claude Code s
+2026-09-21T19:06:40Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > event/README.md <<'MD' --- title: event/ — what the event is status: active owner: Dave created: 2026-09-21 created_by: claude-fable-5-1 (Claude Code session 4f946fee) upd
+2026-09-21T19:09:00Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > outreach/README.md <<'MD' --- title: outreach/ — getting the right people in the room status: active owner: Ada created: 2026-09-21 created_by: claude-fable-5-1 (Claude Co
+2026-09-21T19:09:14Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event echo "--- files missing frontmatter ---" for f in $(find . -path ./.git -prune -o -name '*.md' -print | sort); do case "$f" in ./sources/originals/seed.md|./sources/originals/bl
+2026-09-21T19:05:00Z | 4f946fee | Write | sources/ (README, INDEX, originals/README, 4 incident notes, 6 context notes incl. derived timeline D01, 2 funder notes)
+2026-09-21T19:05:00Z | 4f946fee | Write | grant/ (README, application-draft, budget, rfe-fit-checklist, completion-report-template)
+2026-09-21T19:05:00Z | 4f946fee | Write | event/ (README, concept, format-options, agenda, run-sheet, follow-up); speakers/ (README, briefing-pack, stan-technical-talk, corvin-governance-talk, third-speaker)
+2026-09-21T19:05:00Z | 4f946fee | Write | outreach/ (README, audience, channels, promotion-timeline, copy/{README,listing,linkedin-post,community-email}); venue/ (README, requirements, candidates); logistics/ (README, catering, av-and-materials, registration); team/ (README, organizers, meetings/README); decisions/ (README, open-questions Q1-Q14, decision-log D-1..D-2)
+2026-09-21T19:07:00Z | 4f946fee | Bash | verified: all .md files carry the provenance header; 0 broken relative links; application field 6 = 190 chars
+2026-09-21T19:08:00Z | 4f946fee | note | Session summary: repo built from S01+S02 and 12 fetched sources. All content is agent-drafted (status: draft) and needs human review; no venue, price, contact or confirmation was invented (marked TBC). Hooks in .claude/settings.json take over automatic logging from the next Claude Code session. Open: Q1 date, Q2 venue, Q4 applicant, Q5 amount; see STATUS.md.

@@ -1,0 +1,27 @@
+---
+title: grant/ — the BlueDot application and the money
+status: active
+owner: Dave
+created: 2026-09-21
+created_by: claude-fable-5-1 (Claude Code session 4f946fee)
+updated: 2026-09-21
+updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
+sources: [S02, S06, S07]
+---
+
+# grant/
+
+Everything about getting and accounting for the BlueDot Rapid Grant under the Request for
+Events (S02). Deadline **2026-10-04**; we aim to submit by **2026-09-28**.
+
+| File | Purpose |
+|---|---|
+| `application-draft.md` | Every field of the Airtable form (S07) with a draft answer. Copy from here into the form. |
+| `budget.md` | Cost scenarios in EUR and USD, the exchange-rate assumption, and the request amount. |
+| `rfe-fit-checklist.md` | What BlueDot says it wants, mapped to what we offer, with gaps. |
+| `completion-report-template.md` | The report due 60 days after the event (S06). Fill during and after the event, not from memory. |
+
+Funder contacts: Joshua Landes (joshua@bluedot.org), Harry Waterman (harry@bluedot.org) (S02).
+Correspondence with BlueDot goes here as dated files (`YYYY-MM-DD-subject.md`).
+
+A human submits the form. Agents never submit.
