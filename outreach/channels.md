@@ -6,7 +6,7 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S02, S15]
+sources: [S01, S02, S15, S16]
 ---
 
 # Channels
@@ -16,7 +16,7 @@ sources: [S01, S02, S15]
 | **Luma** | **Primary registration page (D-7):** free tickets, required. Reach audiences in priority order | Free | TBC | not created |
 | **Eventbrite** | Secondary listing for discovery, linking to Luma (was primary before D-7); "having it there for some amount of time will do a lot of advertising for us" (S01) | Free for free tickets; paid ads possible (cost TBC) | TBC | not created |
 | **Meetup.com** | Post to relevant Munich tech/startup/AI groups; consider using the EA Meetup account (S01) | Group posting free; Meetup ads possible | TBC | not created |
-| **Luma (BlueDot)** | BlueDot hosts the event on its Luma and invites local participants (S02) | Free | Via application | pending grant |
+| **Luma (BlueDot)** | BlueDot hosts the event on its Luma and invites local participants (S02). Submit our Luma event to its calendar with its "Submit Event" button (S16) | Free | whoever creates our Luma event | once our Luma event exists |
 | **LinkedIn organic** | Posts from each organiser and speaker; target Munich industry leads | Free; "local network strength is unclear" (S01) | all organisers | not started |
 | **LinkedIn ads** | Targeted at Munich AI/engineering leadership titles | "cost is unclear" (S01); budget 0–600 EUR in `grant/budget.md` | TBC | decide after grant |
 | **EA Munich** | Patrick Grubin's "fairly large EA circle" (S01) | Free | Zsolt/Ada to ask | not asked |

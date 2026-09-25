@@ -27,8 +27,9 @@ replaced by this decision.
 | 2026-10-18 | BlueDot's preferred latest event date | S02 |
 | **2026-12-12** | Completion report due to BlueDot, 60 days after the event | S06 |
 
-BlueDot reviews on a rolling basis and asks for a week before a decision is needed (S02). Stan
-put the median decision time at 4–5 days (S15, unverified). Payment is a single lump sum after
+BlueDot reviews on a rolling basis and asks for a week before a decision is needed (S02). Its
+site gives an average decision time of 4 days, with 9 in 10 applicants hearing back within 14
+days (S06, re-read 2026-09-25). The application asks for a decision by 2026-10-04. Payment is a single lump sum after
 the claim is submitted and checked (S06). Who fronts costs until then is Q18.
 
 ## Working plan to 2026-10-13

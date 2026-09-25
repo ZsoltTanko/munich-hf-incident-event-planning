@@ -7,14 +7,14 @@ published: n/a (live form)
 fetched: 2026-09-21
 fetched_by: claude-fable-5-1 (Claude Code session 4f946fee)
 method: browser get_page_text and accessibility tree
-fidelity: verbatim field labels and helper text; dropdown option lists were not expanded (four combobox fields exist)
+fidelity: verbatim field labels and helper text; dropdown options captured on the 2026-09-25 re-read
 referenced_from: S02 ("Apply through the Rapid Grants form")
 status: confirmed
 owner: Dave
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
 sources: []
 ---
 
@@ -32,12 +32,12 @@ agenda is fine for the work-link field.
 | 2 | Your email | * | text | "This should match the email you receive course communications to, and sign in to the Course Hub with." |
 | 3 | Where are you based? | * | text | "We are currently unable to fund people based in Russia, China or India. We cannot fund individuals or organizations where doing so would breach applicable sanctions or local laws." |
 | 4 | Where can we learn more about you? | * | text | "LinkedIn or personal website preferred." |
-| 5 | Grant type | * | dropdown | (options not captured; S02 says choose "Events & community") |
+| 5 | Grant type | * | dropdown | Options: Compute & research tools · Events & community · Travel · Something else. S02 says choose "Events & community" |
 | 6 | What are you working on? | * | text, **200 character limit** | |
 | 7 | Link to your work | * | text | "GitHub repo, demo, draft document, or other evidence of work in progress. You can add multiple links." |
-| 8 | If we approve your grant, can we share details about it publicly? | * | dropdown | default shown: "Can share publicly with my name" |
+| 8 | If we approve your grant, can we share details about it publicly? | * | dropdown | Options: Can share publicly with my name (default) · Can share publicly without my name · Cannot share publicly |
 | 9 | Public URL | | text | "Provide one URL which we will link on our website" |
-| 10 | How are you connected to the BlueDot community? | * | dropdown | (options not captured; S02 says "Other" if new) |
+| 10 | How are you connected to the BlueDot community? | * | dropdown | Options: Course participant · Course alum · Facilitator · AI safety community member · Other. S02 says "Other" if new |
 | — | **Grant details** (section) | | | |
 | 11 | How much funding are you requesting? | * | currency ($) | "Your best estimate, to the nearest $50." |
 | 12 | Tell us more about your project. | * | long text | |
@@ -53,3 +53,10 @@ agenda is fine for the work-link field.
 Footer: "Do not submit passwords through this form."
 
 The field-by-field draft lives in `grant/application-draft.md`.
+
+## Re-read 2026-09-25
+
+Re-read in the browser by claude-opus-5-5 (Claude Code session 4f946fee) before drafting
+application v0.2. All field labels, required markers and helper text are unchanged from
+2026-09-21. The three dropdowns were opened to read their options (added to the table above)
+and closed without selecting anything; nothing was entered or submitted.

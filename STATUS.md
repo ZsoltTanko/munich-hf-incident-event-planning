@@ -6,7 +6,7 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S02, S06, S07, S15]
+sources: [S01, S02, S06, S07, S15, S16, S17]
 ---
 
 # Status as of 2026-09-25
@@ -40,8 +40,8 @@ been submitted, booked or published yet.
 | 1 | Ask Erich about Urban Collab at the Petrov Day event | Dave | 2026-09-26 |
 | 2 | Contact about five backup venues; post in chat who was contacted | Dave | 2026-09-27 |
 | 3 | Ask PwC (at Bits & Pretzels) and Google about hosting | Corvin | 2026-09-29 |
-| 4 | Rough budget estimates | Zsolt | 2026-09-27 |
-| 5 | Draft the proposal document for team review, starting from `grant/application-draft.md` (updated with this meeting's decisions) | Zsolt | 2026-09-27 |
+| 4 | Review the draft budget: $4,200 for 100 people, or $3,450 if the venue is free (`grant/budget.md`) | Zsolt, then team | 2026-09-27 |
+| 5 | **Application draft v0.2 is ready for review**: `grant/application-draft.md`, also as `grant/bluedot-application-draft-v0.2.pdf`. Fill the bracketed facts listed at its end (Stan, Ivan, Corvin, Dave) | named owners | 2026-09-27 |
 | 6 | WhatsApp poll for the Sunday call time, as late in the day as possible | Zsolt | 2026-09-26 |
 | 7 | **Team call; settle Q5, Q15, Q18, Q20; submit the application** | whole team; Stan and Ivan submit | 2026-09-27 |
 | 8 | Choose the event name (Q17), brainstorming with AI; give Katy the poster content | team | ~2026-09-28 |
@@ -57,13 +57,14 @@ been submitted, booked or published yet.
 
 ## Needs a human
 
+- **The GitHub repo is public** (checked 2026-09-25). It contains the internal meeting
+  transcript, budget thinking and team members' names. Decide whether to make it private.
+  Either way, do not use it as the application's work link (field 7).
 - **Grant payment timing (Q18).** The team believes the grant is paid as a refund after the
-  event. BlueDot's terms describe a single lump sum after award and claim, with timing confirmed
-  in the award email (S02, S06). Ask BlueDot.
+  event. BlueDot's FAQ says a single lump sum after a claim, with timing set in the acceptance
+  email (S06, re-read 2026-09-25). The application asks in field 18.
 - **Organiser roster (Q20).** Seven people were named as "all of the organizers"; the seed named
   nine.
-- `grant/bluedot-application-draft-v0.1.docx` predates this meeting. Regenerate it from the
-  updated markdown draft before sharing.
 
 ## Done
 
@@ -72,3 +73,5 @@ been submitted, booked or published yet.
 - 2026-09-21: ingest workflow (`workflows/ingest-source.md`), `inbox/`, `sources/team/` and the
   alignment-meeting agenda added.
 - 2026-09-25: alignment meeting held with seven organisers (S15). Decisions D-3 to D-13 recorded.
+- 2026-09-25: application draft v0.2 written against a fresh read of the form and BlueDot's
+  terms; quotes verified against the live pages.

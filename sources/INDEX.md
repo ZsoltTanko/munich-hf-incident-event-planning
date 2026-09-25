@@ -6,12 +6,12 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S15]
+sources: []
 ---
 
 # Source index
 
-Next free ID: **S16**. Add new sources at the bottom; never renumber. Team-originated material
+Next free ID: **S18**. Add new sources at the bottom; never renumber. Team-originated material
 (chats, emails, transcripts, team documents) is registered here too, filed under `team/`;
 see `workflows/ingest-source.md`.
 
@@ -32,6 +32,8 @@ see `workflows/ingest-source.md`.
 | S13 | Apart Research × CeSIA "AI Incident Response Sprint", 2026-09-11..13 (where S04 was produced) | `context/apart-incident-response-sprint.md` | Found via S04 | extracted |
 | S14 | Web search results for the Amodei essay (reactions, coverage) | `context/amodei-pace-the-frontier.md` (appendix) | Search on 2026-09-21 | result list |
 | S15 | Team alignment meeting, 2026-09-25: machine transcript, all seven present organisers | `team/2026-09-25-call-team-alignment-meeting.md` | File from Zsolt, moved in from Downloads | verbatim (machine transcript; speaker names inferred) |
+| S16 | BlueDot's events calendar on Luma: event submissions, no clash on 2026-10-13 | `funder/bluedot-luma-calendar.md` | Found while re-checking S02 | verbatim |
+| S17 | EUR/USD rate on 2026-09-25: 1.14 | `context/eur-usd-2026-09-25.md` | Web search | extracted |
 | D01 | Derived: consolidated timeline of the summer-2026 incidents, built from S03, S04, S05, S08, S09, S10, S11, S12 | `context/timeline-summer-2026.md` | Derived by agent | derived |
 
 ## Not yet retrieved (worth adding)
@@ -43,7 +45,6 @@ see `workflows/ingest-source.md`.
 - rubyhack.ai report on the RubyGems campaign, 2026-09-11 (cited in S04's CSV).
 - The "Oh, what the fuck, AI!" post Ada shared (S01) — no link given; ask Ada.
 - The full PDF of S04 (`paper/noticing-the-escapes.pdf` in the GitHub repo).
-- The Airtable form's dropdown options (grant type, BlueDot connection, sharing consent).
 - Raised in S15, not yet verified: an AI incident involving the **Australian medical system or
   government** (Katy, Aldana), and a **declaration signed by about 22 countries**, including
   Australia's prime minister (Dave). Find primary sources before the talks or listing use them.

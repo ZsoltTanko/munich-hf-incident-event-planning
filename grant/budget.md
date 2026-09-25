@@ -6,7 +6,7 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S02, S06, S07, S15]
+sources: [S01, S02, S06, S07, S15, S17]
 ---
 
 # Budget
@@ -14,8 +14,8 @@ sources: [S01, S02, S06, S07, S15]
 All figures below are **estimates by the agent that created this repo, not quotes**. Replace
 each line with a real number as soon as a human has one, and note who obtained it.
 
-**Exchange rate assumption:** 1 EUR = 1.10 USD (ASSUMPTION; check on the day the form is
-submitted and record the rate here). BlueDot pays a lump sum in USD-equivalent after award, and
+**Exchange rate:** 1 EUR = 1.14 USD on 2026-09-25 (S17), replacing the earlier 1.10
+assumption. Recheck on submission day. Scenario tables below still show USD at 1.10. BlueDot pays a lump sum in USD-equivalent after award, and
 warns that transfer fees reduce the amount received (S06). Round the request to the nearest $50
 (S07).
 
@@ -62,7 +62,7 @@ warns that transfer fees reduce the amount received (S06). Round the request to 
 "a 40-person event in a large US city might request $3,000 for a room, refreshments,
 preparation, and follow-up. Local prices and available free space will vary" (S02).
 
-## Recommendation (agent's, for the team to overrule)
+## Recommendation from 2026-09-21 (superseded by the draft request below)
 
 Apply for Scenario B's lower-middle band, roughly **$4,000**, stated as covering venue, food and
 drink for up to 100, materials, targeted promotion and modest scoped organiser time, with the
@@ -72,5 +72,16 @@ room for the headcount to land anywhere between 50 and 100 without a material ch
 
 ## Request amount on the form
 
-`$ TBC` — set after venue quotes (STATUS next action 4). Record the final number and who set it
-here.
+**Draft: $4,200** (application v0.2, 2026-09-25), for 100 attendees with the venue estimated at
+€600. The line items are in `application-draft.md` field 14.
+
+| If Urban Collab's venue costs... | Request |
+|---|---|
+| nothing | $3,450 |
+| about €600 (draft assumption) | $4,200 |
+| about €1,000 | $4,700 |
+
+Katy expected the ask to stay under $4,000 (S15). The draft is slightly over that unless the venue
+is free. BlueDot's range allows it: most events run $300–4,000, and larger events can justify up
+to $10,000 (S02). An Events RFE workshop in Bonn received $10,000 (S06). The final number is
+set on the 2026-09-27 call (Q5).
