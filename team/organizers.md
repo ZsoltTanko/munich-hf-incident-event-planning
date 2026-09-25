@@ -6,12 +6,14 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S15]
+sources: [S01, S15, S18]
 ---
 
 # Organisers
 
 Roles below are what people took on at the 2026-09-25 meeting (S15), not agent suggestions.
+Members of the team help organise EA Munich and ACX Munich and run citywide events for them
+(Zsolt, S18); which members is not recorded.
 Whether Ada and Jens are still organisers is open (Q20).
 
 | Person | Role | What they said they will do (S15) | Availability | Notes |

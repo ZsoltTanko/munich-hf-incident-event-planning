@@ -6,7 +6,7 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S03, S04, S10, S15]
+sources: [S01, S03, S04, S10, S15, S21, S22]
 ---
 
 # Talk 1: What actually happened
@@ -45,7 +45,8 @@ Feedback on Stan's talk about the incident at an EA event earlier that week (pro
 - **Say more about OpenAI's neglect** (Dave). The talk did not cover it enough.
 - **Build a strong timeline of similar incidents**, including new ones still coming out up to
   the event date (Dave and Stan agreed). A business audience may respond more to the Australian
-  incident Katy raised; it is not yet in our sources, so verify it first.
+  incident Katy raised: an OpenAI agent breached a government Medicare data portal on
+  2026-06-18, undisclosed until September (S21, S22).
 - Stan and Corvin coordinate the two talks over text so they complement each other (D-6).
 - Framing (D-10): serious risks may be addressed in the talk, but the advertising leads with
   what happened. Stan argued for softening the x-risk emphasis; Ivan argued for mentioning it

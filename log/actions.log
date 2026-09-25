@@ -104,3 +104,25 @@
 2026-09-25T15:39:38Z | 4f946fee | Stop | agent turn ended
 2026-09-25T16:02:37Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event OUT=~/Downloads/"Bluedot event organizing sept 25 2026.md" if [ -e "$OUT" ]; then echo "EXISTS, not overwriting: $OUT"; ls -la "$OUT"; exit 0; fi python3 - "$OUT" <<'PY' import 
 2026-09-25T16:02:42Z | 4f946fee | Stop | agent turn ended
+2026-09-25T16:02:57Z | 4f946fee | Stop | agent turn ended
+2026-09-25T16:11:54Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event grep -n "Bits\|cold promotion\|UnternehmerTUM\|\.pdf\|docx\|rationalist\|event-organising experience\|Events RFE: Munich" grant/application-draft.md echo ---; grep -rln "build-a
+2026-09-25T16:11:57Z | 4f946fee | PostToolUse:Bash | sed -n '118,140p;220,245p' grant/application-draft.md
+2026-09-25T16:12:49Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event BY="claude-opus-5-5 (Claude Code session 4f946fee)" # ---- 1. File Zsolt's feedback verbatim as S18 cat > sources/team/2026-09-25-chat-zsolt-application-feedback.md <<'MD' --- t
+2026-09-25T16:12:56Z | claude-opus-5-5 | note | Ingested S18 (Zsolt's chat feedback on application v0.2): application now names EA Munich/ACX Munich organiser roles, frames the event as free and public with professional networks as a lever, drops Bits & Pretzels and other Munich-only references; field 6 now 175 chars; D-14 recorded; application is Markdown only, so grant/*.docx, grant/*.pdf and scripts/build-application-docx.js removed (recoverable from commit f9b55da). Not committed.
+2026-09-25T16:13:09Z | 4f946fee | Stop | agent turn ended
+2026-09-25T16:13:40Z | 4f946fee | PostToolUse:mcp__Claude_Browser__preview_start | https://bluedot.org/grants
+2026-09-25T16:13:47Z | 4f946fee | PostToolUse:WebSearch | bluedot.org "Events RFE" OR "Request for Events" Rapid Grants 2026
+2026-09-25T16:13:56Z | 4f946fee | PostToolUse:WebFetch | https://bluedot.org/programs/rapid-grants
+2026-09-25T16:13:58Z | 4f946fee | PostToolUse:WebFetch | https://blog.bluedot.org/p/rapid-grants-for-bluedot-projects
+2026-09-25T16:14:22Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > sources/funder/bluedot-grants-overview.md <<'MD' --- title: BlueDot grants overview page source_id: S19 url: https://bluedot.org/grants author: BlueDot Impact published: n
+2026-09-25T16:14:34Z | 4f946fee | Stop | agent turn ended
+2026-09-25T16:16:19Z | 4f946fee | PostToolUse:WebSearch | AI agents hacked Australian government website September 2026
+2026-09-25T16:16:21Z | 4f946fee | PostToolUse:WebSearch | AI agents Wikipedia wiki vandalism attack September 2026 OpenAI agents
+2026-09-25T16:16:22Z | 4f946fee | PostToolUse:WebSearch | AI agent swarm wiki edits incident 2026 DSEWiki Nightingale
+2026-09-25T16:16:32Z | 4f946fee | PostToolUse:mcp__Claude_Browser__preview_start | https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
+2026-09-25T16:16:33Z | 4f946fee | PostToolUse:WebFetch | https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html
+2026-09-25T16:16:37Z | 4f946fee | PostToolUse:WebFetch | https://www.securityweek.com/openai-agents-hijack-another-victim-website/
+2026-09-25T16:16:58Z | 4f946fee | PostToolUse:WebSearch | OpenAI agents second wiki attack September 2026 another wiki agents edits
+2026-09-25T16:18:09Z | 4f946fee | PostToolUse:Bash | cd /Users/zsolttanko/vscode-projects/testing/hf-incident-event cat > sources/context/wikipedia-openai-hf-incident.md <<'MD' --- title: Wikipedia — "OpenAI–HuggingFace incident" (also "2026 OpenAI agent cyberattacks") source_id: S21 url: htt
+2026-09-25T16:18:25Z | claude-opus-5-5 | note | Per Zsolt (chat 2026-09-25): researched post-HF incidents. Added S21 (Wikipedia overview, verbatim excerpts: DseWiki, Australian Medicare breach) and S22 (news coverage, extracted). Application field 15 now names the DseWiki swarm and the Australian Medicare portal breach, and cites Coxon's resignation; 'nine escapes this year' claims in fields 12, 13, 17 corrected to 'made public by mid-September'. D01 timeline gains 2026-06-18 and 2026-09-23/24 rows. Only one wiki incident (DseWiki) found. Not committed.
+2026-09-25T16:18:40Z | 4f946fee | Stop | agent turn ended

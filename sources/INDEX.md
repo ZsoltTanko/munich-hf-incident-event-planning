@@ -11,7 +11,7 @@ sources: []
 
 # Source index
 
-Next free ID: **S18**. Add new sources at the bottom; never renumber. Team-originated material
+Next free ID: **S23**. Add new sources at the bottom; never renumber. Team-originated material
 (chats, emails, transcripts, team documents) is registered here too, filed under `team/`;
 see `workflows/ingest-source.md`.
 
@@ -34,6 +34,11 @@ see `workflows/ingest-source.md`.
 | S15 | Team alignment meeting, 2026-09-25: machine transcript, all seven present organisers | `team/2026-09-25-call-team-alignment-meeting.md` | File from Zsolt, moved in from Downloads | verbatim (machine transcript; speaker names inferred) |
 | S16 | BlueDot's events calendar on Luma: event submissions, no clash on 2026-10-13 | `funder/bluedot-luma-calendar.md` | Found while re-checking S02 | verbatim |
 | S17 | EUR/USD rate on 2026-09-25: 1.14 | `context/eur-usd-2026-09-25.md` | Web search | extracted |
+| S18 | Zsolt's feedback on application draft v0.2: EA/ACX Munich credentials, public framing, Markdown only | `team/2026-09-25-chat-zsolt-application-feedback.md` | Pasted in chat by Zsolt | verbatim |
+| S19 | BlueDot grants overview: no BlueDot course required to apply | `funder/bluedot-grants-overview.md` | bluedot.org navigation | verbatim |
+| S20 | BlueDot blog, Nov 2025: earlier Rapid Grants on a reimbursement model | `funder/bluedot-blog-rapid-grants-2025-11.md` | Web search | extracted |
+| S21 | Wikipedia, "OpenAI–HuggingFace incident": overview incl. DseWiki and the Australian Medicare breach | `context/wikipedia-openai-hf-incident.md` | Web search (Zsolt's request) | verbatim excerpts; secondary |
+| S22 | News coverage: Australian Medicare breach (CNBC, Nature, CBC, Global News) and DseWiki (Fortune, TechCrunch, SecurityWeek) | `context/australia-medicare-breach-coverage.md` | Web search | extracted |
 | D01 | Derived: consolidated timeline of the summer-2026 incidents, built from S03, S04, S05, S08, S09, S10, S11, S12 | `context/timeline-summer-2026.md` | Derived by agent | derived |
 
 ## Not yet retrieved (worth adding)
@@ -45,6 +50,9 @@ see `workflows/ingest-source.md`.
 - rubyhack.ai report on the RubyGems campaign, 2026-09-11 (cited in S04's CSV).
 - The "Oh, what the fuck, AI!" post Ada shared (S01) — no link given; ask Ada.
 - The full PDF of S04 (`paper/noticing-the-escapes.pdf` in the GitHub repo).
-- Raised in S15, not yet verified: an AI incident involving the **Australian medical system or
-  government** (Katy, Aldana), and a **declaration signed by about 22 countries**, including
-  Australia's prime minister (Dave). Find primary sources before the talks or listing use them.
+- Raised in S15, not yet verified: a **declaration signed by about 22 countries**, including
+  Australia's prime minister (Dave). (The Australian incident Katy and Aldana raised is now S21,
+  S22.)
+- Nightingale Collective's DseWiki report, "Discovery of a new OpenAI agent message board",
+  collusion.wiki, 2026-09-04 (primary source behind S21/S22).
+- Services Australia's or the Australian government's own statement on the Medicare breach.

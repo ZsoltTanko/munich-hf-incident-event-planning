@@ -6,7 +6,7 @@ created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
 updated: 2026-09-25
 updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
-sources: [S01, S02, S06, S07, S15]
+sources: [S01, S02, S06, S07, S15, S18]
 ---
 
 # Decision log
@@ -29,3 +29,4 @@ with a new entry.
 | D-11 | 2026-09-25 | Team meeting (S15) | **Applicants:** Stan and Ivan listed first (both have completed BlueDot courses); all organisers named on the application; the speakers named too | BlueDot favours alumni (S06); everyone wants CV credit; Stan's worry about applying for money while being a speaker was discussed and judged not a problem, since broadcasting the incident is what the RFE funds | Q4 |
 | D-12 | 2026-09-25 | Team meeting (S15); proposed by Dave | In public materials, organisers are Ivan, Aldana, Dave, Katy and Zsolt; Stan and Corvin are billed as **invited speakers** | Corvin asked whether the speakers should be external; the application still names them (D-11) | — |
 | D-13 | 2026-09-25 | Team meeting (S15) | Aim to **submit the application on Sunday 2026-09-27**, after a team call that day to settle and send it. Call time by WhatsApp poll; Ivan asked for as late as possible | Stan's "extremely strong preference"; team expects BlueDot to allow for venue and headcount being provisional so soon after the RFE | — |
+| D-14 | 2026-09-25 | Zsolt, reviewing application draft v0.2 (S18) | In the **application**: say that members of the team help organise EA Munich and ACX Munich; present the event as free and open to the public, with the team's professional networks as a way to reach decision-makers rather than the main channel; do not name Munich-specific events reviewers won't know. The application lives as **Markdown only**. Public branding stays Rationality Munich (D-5) | BlueDot and EA are closely aligned, and running citywide events adds credibility. The RFE welcomes professional networks (S02), but "rather than cold promotion" made the event sound closed | — |
