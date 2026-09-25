@@ -4,18 +4,20 @@ status: draft
 owner: Ada
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S15]
 ---
 
 # Registration
 
-- **Platform:** Eventbrite as the single source of truth (S01); Meetup and Luma link to it so
-  the count is in one place. (BlueDot's Luma may take its own RSVPs; ask them to point to
-  Eventbrite or reconcile counts manually.)
-- **Price:** free (Q7 considers a nominal fee to cut no-shows; free events on Eventbrite
-  typically see high no-show rates, so over-register by ~40% against capacity).
+- **Platform:** **Luma** as the single source of truth, with required free tickets (D-7,
+  2026-09-25). Eventbrite and Meetup listings link to it. If BlueDot lists the event on its own
+  Luma, ask it to point to ours.
+- **Price:** free (Q7 decided → D-7). Free events see high no-show rates, so allow for
+  over-registration against capacity.
+- **Scaling:** reach audiences in priority order and keep going until full. If registrations
+  pass the room's capacity, ask the venue for its biggest room (D-7).
 - **Capacity:** set to venue capacity + waitlist.
 - **Questions at registration:** (1) Which best describes you? [industry / startup / student /
   EA-ACX-PauseAI community / other]; (2) Where did you hear about this? (3) Optional: one

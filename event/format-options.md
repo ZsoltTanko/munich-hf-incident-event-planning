@@ -4,12 +4,16 @@ status: draft
 owner: Dave
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S15]
 ---
 
 # Format and size options
+
+**Decided 2026-09-25 (S15):** programme shape A, two talks, discussion and mixer, with no third
+speaker (D-6). Size is 50–100, measured through Luma free tickets, with a move to a bigger room at
+the same venue if demand exceeds that (D-7). The options below are kept for reference.
 
 The seed asks whether we are "aiming too small" given funding up to $10,000, and notes the real
 bound is organiser labour (S01). Options, with the trade-offs as the agent sees them.

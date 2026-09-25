@@ -4,14 +4,15 @@ status: draft
 owner: Katy
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S15]
 ---
 
 # Venue candidates
 
-No venue has been contacted. Do not add prices you have not been quoted. Types of venue worth
+Approach decided on 2026-09-25 (D-8): Urban Collab first, backups in parallel. Do not add prices
+you have not been quoted. Types of venue worth
 asking, in rough order of cost:
 
 | Type | Examples to research | Typical cost | Notes |
@@ -27,4 +28,16 @@ asking, in rough order of cost:
 
 | Venue | Type | Capacity | Cost | Availability | Contact / who is asking | Status |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| **Urban Collab** | Innovation hub | Reportedly two auditoriums with movable walls and an amphitheatre-style lecture hall for ~100 (Corvin, Stan; Dave and Zsolt did not recall one; unverified, S15) | TBC | TBC for 2026-10-13 | Dave, via Erich, at the Petrov Day event on 2026-09-26 | first choice; ask pending |
+| PwC Munich | Company space | "big enough" (Corvin, S15) | TBC | TBC | Corvin, in person at Bits & Pretzels on 2026-09-29 | backup; ask pending |
+| Google Munich | Company office | "big enough" (Corvin, S15) | TBC | TBC | Corvin (two contacts; one costs no social capital) | backup; ask pending. Team sees a Google venue as adding credibility. Dave expects content requirements |
+| Pinakothek der Moderne event space | Cultural | TBC | Possibly free for public-interest events (Katy, S15; unverified) | TBC | TBC | backup idea |
+| BMW lecture hall | Company space | TBC | TBC | TBC | Corvin has a contact; Dave worked at BMW | backup idea |
+| UnternehmerTUM (other location) | Startup hub | TBC | TBC | TBC | Dave, or through UnternehmerTUM if Urban Collab fails directly | backup idea |
+| Impact Hub Munich; "Vac One" (as transcribed; name unclear) | Startup hubs | TBC | TBC | TBC | suggested by Dave's AI assistant during the meeting | backup idea |
+| A venue for 50–60 that Dave knows | TBC | 50–60 | TBC | TBC | Dave | fallback if demand is low |
+| Dave's office; university rooms; Microsoft, LinkedIn | Company / university | TBC | TBC | TBC | Dave | backup ideas |
+
+Dave contacts about five of the backups on 2026-09-27, depending on Urban Collab's answer, and
+posts who he contacted in the team chat; Corvin covers the rest (S15). Ask every venue whether
+it provides tables, which affects catering (Q16).

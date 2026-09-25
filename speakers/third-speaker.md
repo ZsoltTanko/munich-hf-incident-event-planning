@@ -4,9 +4,9 @@ status: draft
 owner: Dave
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02, S05, S13]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S05, S13, S15]
 ---
 
 # Third speaker
@@ -34,4 +34,10 @@ higher-profile events it is "keen to help you find high AIS context speakers" (S
 
 ## Status
 
-Idea only. Decide in Q11 whether to pursue.
+**Decided 2026-09-25 (D-6): no third speaker** unless an unusually good opportunity appears. Two
+people surfaced in the meeting, as possible attendees or future speakers rather than for this
+event (S15):
+
+- A MATS alum from Augsburg, frequently at ACX meetups, now doing AI safety research remotely.
+  Stan is finding his name.
+- Someone Corvin knows who does AI research in Munich.

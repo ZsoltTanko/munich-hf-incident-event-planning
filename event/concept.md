@@ -4,9 +4,9 @@ status: draft
 owner: Dave
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02, S03, S04, S05, S08, S09, S12, D01]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S03, S04, S05, S08, S09, S12, D01, S15]
 ---
 
 # Concept
@@ -16,6 +16,17 @@ sources: [S01, S02, S03, S04, S05, S08, S09, S12, D01]
 An evening in Munich where two people who understand the July 2026 agent-swarm incident explain
 to industry professionals, founders and students what happened, why it is evidence about
 catastrophic risk from AI, and what they can do about it.
+
+## Decided on 2026-09-25 (S15)
+
+- Organised as **Rationality Munich** (D-5), on **Tuesday 2026-10-13** (D-4).
+- **Framing (D-10):** the advertising leads with what happened. The Hugging Face incident is the
+  headline, set among the other 2026 incidents, including new ones up to the event date. The
+  listing and poster do not lead with existential risk; the talks do address the most serious
+  risks. BlueDot's catastrophic-risk requirement is met in the content and in the application.
+- The title should be a **question** the audience recognises as their own (Dave; Q17 open).
+- Goal 3 below includes reaching people "who have levers of power … but who don't know what …
+  is going on" (Dave, D-3).
 
 ## Framing: wider than one incident
 

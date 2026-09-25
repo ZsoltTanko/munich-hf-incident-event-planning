@@ -4,12 +4,18 @@ status: draft
 owner: Ada
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S03, S04, S08, S09, D01]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S03, S04, S08, S09, D01, S15]
 ---
 
 # Listing
+
+**Framing rule (D-10, 2026-09-25):** lead with what happened; keep existential-risk framing
+out of the listing and poster. The draft below quotes "gambling with our lives" and says labs
+agreed the industry "needs to slow down". Review both lines against D-10 before publishing.
+Presented by **Rationality Munich** (D-5); Stan and Corvin are **invited speakers** (D-12).
+Registration is on **Luma** (D-7). Title: Q17, ideally a question.
 
 **Title:** [pick from `event/concept.md`] — e.g. *What Actually Happened: the Hugging Face AI
 incident, explained*
@@ -36,10 +42,10 @@ company or your field, this evening is for you.
 - **Open discussion** — bring your questions.
 - **Mixer** — drinks, and the people in Munich who work on this.
 
-**When:** [date], doors 18:30, talks 19:00–20:30, mixer until 22:00
+**When:** Tuesday 13 October 2026, doors 18:30, talks 19:00–20:30, mixer until 22:00
 **Where:** [venue, address]
 **Cost:** Free (registration required). [If recorded: "Talks will be recorded."]
 **Language:** English
 
-Organised by [team/group name TBC] with support from BlueDot Impact [only once the grant is
+Organised by Rationality Munich with support from BlueDot Impact [only once the grant is
 awarded and BlueDot agrees to be named].

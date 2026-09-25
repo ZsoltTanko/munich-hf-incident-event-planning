@@ -4,12 +4,14 @@ status: draft
 owner: Katy
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S15]
 ---
 
-# Agenda — [title], [date], [venue], Munich
+# Agenda — [title, Q17], Tuesday 2026-10-13, [venue], Munich
+
+Presented by Rationality Munich (D-5). Speakers billed as invited speakers (D-12).
 
 This is the version that goes in the application ("a short draft agenda is fine", S02) and,
 trimmed, in the listing. Times assume a weekday evening.
@@ -22,7 +24,7 @@ trimmed, in the listing. Times assume a weekday evening.
 | 19:30 | **Talk 2 — Why it matters, and what happens next** | Corvin | 20–25 min. Warning shot; what "pace the frontier" and embedded evaluators mean; what it means in Germany/EU and for a company deploying agents |
 | 19:55 | **Discussion** | Host moderates, both speakers | 30 min. Start with the two best collected questions, then open floor. Keep one slot for "what would you do on Monday?" |
 | 20:25 | Close: the one-page resource sheet, next steps by segment, thank-yous, invite to stay | Host | 5 min |
-| 20:30 | **Mixer** | Everyone | Until ~22:00. Organisers wear a visible badge and actively introduce industry guests to safety-community people. Optional: one table each for EA Munich, PauseAI Munich, BlueDot courses |
+| 20:30 | **Mixer** with food and drink (D-9; method Q16) | Everyone | Until ~22:00. Organisers wear a visible badge and actively introduce industry guests to safety-community people. Optional: one table each for EA Munich, PauseAI Munich, BlueDot courses |
 | 22:00 | Venue clear | Logistics | |
 
 Optional block if the venue has tables and we have facilitators (see `format-options.md` B):

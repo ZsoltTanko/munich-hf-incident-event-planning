@@ -4,54 +4,66 @@ status: active
 owner: Zsolt
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02, S06, S07]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S06, S07, S15]
 ---
 
-# Status as of 2026-09-21
+# Status as of 2026-09-25
 
-**Phase:** planning, pre-application. Nothing has been submitted, booked or published.
+**Phase:** application week. The team met on 2026-09-25 and settled the structure. Nothing has
+been submitted, booked or published yet.
 
 ## What is true right now
 
-- Funder: BlueDot Request for Events (Rapid Grants). Apply by **2026-10-04**; BlueDot prefers
-  events **by 2026-10-18** and asks applicants to allow **one week** for a decision (S02).
-- Speakers: Stan (technical; author of the Apart Research incident paper, S04) and Corvin
-  (governance). Both from the organising team. A third "credentialed" speaker is an idea only.
-- Team: nine organisers (see `team/organizers.md`). Dave appears to be leading. Roles unassigned.
-- Audience target: 50–100. Segments and justification drafted in `outreach/audience.md`.
-- Venue: none identified. Requirements drafted in `venue/requirements.md`.
-- Budget: rough scenarios in `grant/budget.md`. No quotes obtained.
-- Application: every form field has a draft answer in `grant/application-draft.md`.
-- Constraint: Dave and Ivan are away for 2+ weeks in October (dates TBC, S01). This collides
-  with BlueDot's preferred window.
+- **Event:** Tuesday 2026-10-13, Munich, weekday evening (D-4). Two talks, discussion, mixer with
+  food (D-6, D-9). Organised as **Rationality Munich** (D-5).
+- **Speakers:** Stan (technical) and Corvin (governance), billed as invited speakers (D-12). No
+  third speaker (D-6).
+- **Applicants:** Stan and Ivan listed first, all organisers named (D-11). Target submission is
+  **Sunday 2026-09-27** after a team call (D-13). Deadline is 2026-10-04.
+- **Venue:** none confirmed. Urban Collab is first choice; backups are being approached in
+  parallel (D-8). Tracker in `venue/candidates.md`.
+- **Registration:** Luma, free tickets required, plan for 50–100 and scale the room if demand
+  is higher (D-7).
+- **Framing:** lead with what happened, the Hugging Face incident among the other 2026
+  incidents; serious risks belong in the talks, not in the advertising (D-10).
+- **Budget:** request amount open (Q5), pending venue. Catering came in at €20–25 per head on
+  Dave's check, about double the earlier estimate (Q16).
+- **Team:** Dave, Ivan and Aldana fly on 2026-10-15. Whether Ada and Jens are still organisers is
+  open (Q20).
 
-## Next actions (suggested owner in brackets)
+## Next actions
 
-0. **Hold the alignment meeting** (Dave convenes, this week) using
-   `team/meetings/agenda-alignment-meeting.md`. Items 1–7 below are its agenda.
-1. **Decide the event date window** (whole team, this week). Either target 2026-10-15..18 and
-   accept a tight two-week runway, or pick late Oct / early Nov and justify it in the
-   application, which the RFE explicitly allows. See `decisions/open-questions.md` Q1.
-2. **Name the applicant and confirm BlueDot connection** (Dave / Zsolt). The form asks how you
-   are connected to BlueDot; anyone who took a BlueDot course should be named. See Q4.
-3. **Get two venue options with a price** (Katy + whoever has the Urban Collab link). Even a
-   free room needs a confirmed hold before the application, because the application asks for
-   location and headcount.
-4. **Fix the request amount** (Dave, Zsolt) once venue and catering ranges are known. Start from
-   `grant/budget.md`.
-5. **Review and tighten the application draft** (all organisers), then a human submits it via
-   the Airtable form (S07). Aim to submit by **2026-09-28** to leave a buffer before Oct 4.
-6. **Speakers confirm talk titles and abstracts** (Stan, Corvin) so the listing copy can be
-   finalised. Drafts in `speakers/`.
-7. **Ask Patrick Grubin, the ACX Munich organisers and PauseAI Munich** whether they will
-   share the event and what audience they can bring (Zsolt / Ada).
+| # | Action | Owner | By |
+|---|---|---|---|
+| 1 | Ask Erich about Urban Collab at the Petrov Day event | Dave | 2026-09-26 |
+| 2 | Contact about five backup venues; post in chat who was contacted | Dave | 2026-09-27 |
+| 3 | Ask PwC (at Bits & Pretzels) and Google about hosting | Corvin | 2026-09-29 |
+| 4 | Rough budget estimates | Zsolt | 2026-09-27 |
+| 5 | Draft the proposal document for team review, starting from `grant/application-draft.md` (updated with this meeting's decisions) | Zsolt | 2026-09-27 |
+| 6 | WhatsApp poll for the Sunday call time, as late in the day as possible | Zsolt | 2026-09-26 |
+| 7 | **Team call; settle Q5, Q15, Q18, Q20; submit the application** | whole team; Stan and Ivan submit | 2026-09-27 |
+| 8 | Choose the event name (Q17), brainstorming with AI; give Katy the poster content | team | ~2026-09-28 |
+| 9 | Design the poster | Katy | 2026-09-29 |
+| 10 | Coordinate the two talks over text | Stan, Corvin | ongoing |
+| 11 | Invite the Munich wet-lab startup founders; find the name of the MATS alum from Augsburg | Stan | when the listing is live |
+| 12 | Personal outreach once the listing exists: Dave to his company and TUM/UnternehmerTUM; Aldana on LinkedIn; Zsolt and Corvin to Munich data-science group organisers and UnternehmerTUM accelerator contacts; Corvin to his companies and at Bits & Pretzels | as named | from listing day |
 
 ## Blocked on
 
-- Event date decision (Q1) blocks venue, listing copy and the application's date field.
-- Venue blocks the headcount and the budget.
+- **Venue** blocks the request amount, the Luma listing and the poster's location line.
+- **Event name** (Q17) blocks the poster.
+
+## Needs a human
+
+- **Grant payment timing (Q18).** The team believes the grant is paid as a refund after the
+  event. BlueDot's terms describe a single lump sum after award and claim, with timing confirmed
+  in the award email (S02, S06). Ask BlueDot.
+- **Organiser roster (Q20).** Seven people were named as "all of the organizers"; the seed named
+  nine.
+- `grant/bluedot-application-draft-v0.1.docx` predates this meeting. Regenerate it from the
+  updated markdown draft before sharing.
 
 ## Done
 
@@ -59,3 +71,4 @@ sources: [S01, S02, S06, S07]
   drafts written for every area.
 - 2026-09-21: ingest workflow (`workflows/ingest-source.md`), `inbox/`, `sources/team/` and the
   alignment-meeting agenda added.
+- 2026-09-25: alignment meeting held with seven organisers (S15). Decisions D-3 to D-13 recorded.

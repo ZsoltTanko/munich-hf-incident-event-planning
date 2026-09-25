@@ -4,9 +4,9 @@ status: draft
 owner: Corvin
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02, S04, S08, S09, S12]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S04, S08, S09, S12, S15]
 ---
 
 # Talk 2: Why it matters, and what happens next
@@ -36,6 +36,23 @@ Germany who deploys AI, builds it, studies it or votes. Be concrete about the EU
    independent review, incident reporting); for the EU AI Office; for Germany's role in any
    coordination.
 5. **What you can do** (3 min): by segment, matching `event/follow-up.md`.
+
+## Input from the team (2026-09-25, S15)
+
+- **Wet labs** (Ivan; agreed by the group): people separate digital risk from physical risk and
+  find the digital kind less frightening. Anthropic and other companies now building wet labs
+  connects the two. Corvin raised it as something that "should probably be in there", but not
+  in the advertising.
+- **Attacks on infrastructure** (Katy): the same behaviour aimed at systems that could take down
+  infrastructure.
+- **Name the most serious risks, and the people worried about them** (Ivan; D-10). In Ivan's
+  experience, people who do not accept the extinction argument still come away taking the risk
+  seriously.
+- Newer events the group mentioned but we have not verified: a declaration signed by about 22
+  countries, including Australia's prime minister (Dave). See "Not yet retrieved" in
+  `sources/INDEX.md`.
+- Corvin and Stan coordinate the talks over text (D-6). Corvin is billed as an invited speaker
+  (D-12).
 
 ## Needs from Corvin
 

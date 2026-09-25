@@ -2,11 +2,10 @@
   "hooks": {
     "PostToolUse": [
       {
-        "matcher": "Write|Edit|MultiEdit|NotebookEdit|Bash|WebFetch|WebSearch|mcp__.*navigate|mcp__.*preview_start",
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/log_action.py\""
+            "command": "python3 \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)/scripts/log_action.py\" --agent codex"
           }
         ]
       }
@@ -16,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/log_action.py\""
+            "command": "python3 \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)/scripts/log_action.py\" --agent codex"
           }
         ]
       }
@@ -26,7 +25,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/log_action.py\""
+            "command": "python3 \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)/scripts/log_action.py\" --agent codex"
           }
         ]
       }

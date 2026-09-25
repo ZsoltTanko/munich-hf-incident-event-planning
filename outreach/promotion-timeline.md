@@ -4,20 +4,22 @@ status: draft
 owner: Ada
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S15]
 ---
 
 # Promotion timeline
 
-Keyed to `TIMELINE.md`. Written for Plan A (event 2026-10-15..18); shift everything if Plan B
-is chosen. Do not publish before the venue and date are confirmed; do publish before the grant
-decision if the venue is free or refundable, because ten days of promotion is already thin.
+Keyed to `TIMELINE.md`, event **2026-10-13** (D-4). Registration is on Luma (D-7). Do not
+publish the listing before the venue is confirmed. Do publish before the grant decision if the
+venue is free or refundable, because two weeks of promotion is already thin. Corvin wants
+material out by **2026-09-29** so people see it two weeks ahead (S15).
 
 | Day | Action | Owner |
 |---|---|---|
-| Date + venue confirmed (target 2026-10-06) | Eventbrite live; Meetup event(s) live; BlueDot told the URL for Luma | |
+| 2026-09-29 | Poster out (Katy); Corvin promotes at Bits & Pretzels | Katy, Corvin |
+| Venue confirmed (target by 2026-10-01) | Luma live with free tickets; Eventbrite and Meetup link to it; BlueDot told the URL | |
 | Same day | Community asks go out: EA Munich (Patrick), ACX, PauseAI, TUM groups, Urban Collab, startup groups | |
 | Same day | Speakers and organisers post on LinkedIn (organic) | |
 | +1 | Direct invitations to named industry people (3–5 per organiser) | |

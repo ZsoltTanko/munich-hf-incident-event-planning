@@ -4,9 +4,9 @@ status: draft
 owner: Ada
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S15]
 ---
 
 # Audience
@@ -29,6 +29,22 @@ replaced by registration data.
 | General public via Eventbrite | Interested citizens | 5–15 | Eventbrite discovery | Listing quality |
 
 Sum of the low ends ≈ 75, which is why the room should be fine at 60 and possible at 100.
+
+## Who reaches whom (from the 2026-09-25 meeting, S15)
+
+| Segment | Who on the team | How |
+|---|---|---|
+| Senior people at Dave's company | Dave | Internal sharing; aimed at people "with levers of power" |
+| TUM students, UnternehmerTUM | Dave (most current TUM connections), Stan | Direct contacts at UnternehmerTUM and TUM |
+| UnternehmerTUM accelerator network | Zsolt, Corvin (alumni of an accelerator programme there) | Ask contacts to forward |
+| Munich data-science and tech group organisers | Zsolt, Corvin | LinkedIn messages |
+| LinkedIn Munich network | Aldana | Posts |
+| Two tech-adjacent companies Corvin knows; his personal contacts | Corvin | Poster through intermediaries; needs material ~2 weeks ahead |
+| Bits & Pretzels attendees | Corvin | In person on 2026-09-29, if material exists |
+| Munich wet-lab startup founders | Stan | Personal invitation |
+
+The team expects that outreach through these networks could push demand past 100; D-7 handles
+that through Luma registrations.
 
 ## Registration question
 

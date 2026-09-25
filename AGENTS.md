@@ -4,8 +4,8 @@ status: active
 owner: Zsolt
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
 sources: []
 ---
 
@@ -69,6 +69,8 @@ lines. One line per action: `<UTC time> | <session or actor> | <event> | <detail
 - **Under Claude Code** the hooks in `.claude/settings.json` log session start, every file write
   or edit, every shell command, every web fetch or search and every browser navigation, and
   the end of each turn. You do not need to do anything for those.
+- **Under Codex** the hooks in `.codex/hooks.json` do the same, with lines labelled
+  `codex:<session>`. Codex asks you to review and trust new or changed hooks before they run.
 - **Under any other agent, or as a human**, log manually:
   `LOG_ACTOR=<your-name> scripts/log.sh "what you did and why"`.
 - **Everyone, at the end of a work session**, appends one summary line with the same command:

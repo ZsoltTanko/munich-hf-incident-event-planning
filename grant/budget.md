@@ -4,9 +4,9 @@ status: draft
 owner: Dave
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S02, S06, S07]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S02, S06, S07, S15]
 ---
 
 # Budget
@@ -38,14 +38,24 @@ warns that transfer fees reduce the amount received (S06). Round the request to 
 | Item | EUR (est.) | Notes |
 |---|---|---|
 | Venue hire (seated 100, mixer space) | 300 – 1,500 | Free options are rarer at this size. |
-| Drinks + food for 100 | 1,000 – 1,800 | |
+| Drinks + food for 100 | 1,000 – 2,500 | Self-catered from restaurants at the low end; Munich caterers at €20–25 per head at the high end (Dave's check, 2026-09-25, S15). Method is Q16. |
 | AV / streaming or recording | 100 – 400 | Recording lets the talk reach people who could not come; supports the completion report. |
 | Materials | 100 – 200 | |
 | Promotion incl. targeted LinkedIn ads to Munich industry leads | 300 – 600 | This is where the "reach industry, not the already-converted" goal (S01) costs money. |
-| Third speaker travel within Germany/EU (if pursued) | 0 – 500 | RFE says speaker travel is considered for "larger, more ambitious events" (S02). |
+| Third speaker travel | 0 | No third speaker (D-6). |
 | Organiser/facilitator time | 0 – 800 | |
-| Contingency 10% | 200 – 550 | |
-| **Total** | **~2,000 – 6,300 EUR** | **≈ $2,200 – $7,000** |
+| Contingency 10% | 180 – 600 | |
+| **Total** | **~2,000 – 6,600 EUR** | **≈ $2,200 – $7,250** |
+
+## Decisions from the 2026-09-25 meeting (S15)
+
+- Food and drink at the mixer are in; they go in the **same** ask as the venue (D-9).
+- The amount is still open (Q5) until a venue is known. Zsolt is drafting rough estimates.
+  Katy expects the ask to stay under $4,000.
+- Headcount for the ask is open (Q15): 50–100 is the plan, but Aldana suggested budgeting for
+  about 200, since spending is claimed against actual costs.
+- The team believes organisers front costs and are refunded; Dave and Aldana can cover a few
+  thousand euros. BlueDot's terms describe a lump sum after award and claim (S06); see Q18.
 
 ## Reference point from BlueDot
 

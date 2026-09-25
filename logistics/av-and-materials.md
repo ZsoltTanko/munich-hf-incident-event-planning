@@ -4,9 +4,9 @@ status: draft
 owner: Katy
 created: 2026-09-21
 created_by: claude-fable-5-1 (Claude Code session 4f946fee)
-updated: 2026-09-21
-updated_by: claude-fable-5-1 (Claude Code session 4f946fee)
-sources: [S01, S05]
+updated: 2026-09-25
+updated_by: claude-opus-5-5 (Claude Code session 4f946fee)
+sources: [S01, S05, S15]
 ---
 
 # AV and materials
@@ -25,6 +25,7 @@ sources: [S01, S05]
 
 | Item | Notes | Owner |
 |---|---|---|
+| **Poster** (print and digital) | Katy designs once the name (Q17) and content are set; needed by 2026-09-29 (S15) | Katy |
 | Name tags with a segment colour dot | Lets organisers spot industry guests to introduce at the mixer | |
 | Signage: street door, lift, room, "photos will be taken" | | |
 | One-page resource sheet (both sides) | Three-sentence summary, timeline, links, local groups, the agent-deployment checklist; matches `event/follow-up.md` | |
